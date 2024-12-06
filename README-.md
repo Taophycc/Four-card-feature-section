@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [taophycc.github.io](https://github.com/Taophycc/Four-card-feature-section.git)
-- Live Site URL: [taophycc.github.io](https://taophycc.github.io/Four-card-feature-section)
+- Live Site URL: [taophycc.github.io](https://taophycc.github.io/Four-card-feature-section/)
 
 
 ### Built with
