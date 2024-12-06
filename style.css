@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: 'poppins' ,sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 98%);
+    height: 100vh;
+    padding-bottom: 4em;
+    padding-inline: 5.8em;
+}
+
+.first-section {
+    text-align: center;
+    width: 40%;
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+}
+
+.first-section h1 {
+    font-weight: 200;
+    font-size: 2rem;
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    
+}
+
+.first-section h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    
+}
+
+.first-section p {
+    color: hsl(229, 6%, 66%);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0em;
+    height: 80vh;
+    width: 100%;
+    padding-inline: 5em;
+    gap: 50px;
+}
+
+.second-section {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px hsl(229, 6%, 66%);
+    justify-self: flex-start;
+    width: 33%;
+    height: 40%;
+    padding: 1.5em;
+}
+
+.second-section p {
+    font-size: 0.8rem;
+    margin-top: 1em;
+    color: hsl(229, 6%, 66%);
+}
+
+.second-section img {
+    position: sticky;
+    left: 150em;
+    top: 130em;
+}
+
+.outside-div {
+    border: 5px yellow;
+    height: 80%;
+    width: 33%;
+    gap: 50px;
+}
+
+.third-section {
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px hsl(229, 6%, 66%);
+    border-top: 5px solid hsl(0, 78%, 62%);
+    height: 50%;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.third-section img {
+    position: sticky;
+    left: 150em;
+    top: 130em;
+}
+
+.third-section p {
+    font-size: 0.8rem;
+    margin-top: 1em;
+    color: hsl(229, 6%, 66%);
+}
+
+
+.fourth-section {
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px hsl(229, 6%, 66%);
+    border-top: 5px solid hsl(34, 97%, 64%);
+    width: 100%;
+    height: 50%;
+    padding: 1.5em;
+    margin-top: 2em;
+}
+
+.fourth-section p {
+    font-size: 0.8rem;
+    margin-top: 1em;
+    color: hsl(229, 6%, 66%);
+}
+
+.fourth-section img {
+    position: sticky;
+    left: 150em;
+    top: 130em;
+}
+
+.fifth-section {
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px hsl(229, 6%, 66%);
+    border-top: 5px solid hsl(212, 86%, 64%);
+    width: 33%;
+    height: 40%;
+    padding: 1.5em;
+}
+.fifth-section p {
+    font-size: 0.8rem;
+    margin-top: 1em;
+    color: hsl(229, 6%, 66%);
+}
+
+.fifth-section img {
+    position: sticky;
+    left: 150em;
+    top: 130em;
+}
+
+h3 {
+    color: hsl(234, 12%, 34%)
+}
+
+
+@media (min-width:360px) and (max-width:430px) {
+    .parent-container {
+        padding-inline: 0em;
+        padding-block: 3em;
+        height: auto;
+    }
+    
+    .first-section {
+        text-align: center;
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 3em;
+        padding-inline: 0;
+    }
+    
+    .first-section h1 {
+        font-weight: 200;
+        font-size: 1.3rem;
+        text-align: center;
+        color: hsl(234, 12%, 34%);
+        
+    }
+    
+    .first-section h2 {
+        font-weight: 600;
+        font-size: 1.3rem;
+        text-align: center;
+        color: hsl(234, 12%, 34%);
+        
+    }
+    
+    .first-section p {
+        color: hsl(229, 6%, 66%);
+        font-size: 0.8rem;
+        text-align: center;
+        padding-inline: 4em;
+        padding-top: 0.7em;
+    }
+    
+    .card-container { 
+        flex-direction: column;
+        height:  auto;
+        padding: 0;
+    }
+
+    .second-section {
+        width: 75%;
+        padding-bottom: 2.5em;
+    }
+
+    .outside-div {
+        width: 75%;
+    }
+    .third-section {
+        width: 100%;
+        padding-bottom: 2.5em;
+    }
+
+    .fourth-section {
+        width: 100%;
+        padding-bottom: 2.5em;
+    }
+
+    .fifth-section {
+        width: 75%;
+        padding-bottom: 2.5em;
+    }
+
+    .second-section img,
+    .third-section img,
+    .fourth-section img,
+    .fifth-section img  {
+        width: 40px;
+        height: 40px;
+        margin-top: 1.5em;
+    } 
+}    
