@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](![FireShot Capture 003 - Four-card-feature-section - taophycc github io](https://github.com/user-attachments/assets/77e22072-090c-439d-a62f-cbc8a4752ff6)
-)
+![Screenshot]![FireShot Capture 003 - Four-card-feature-section - taophycc github io](https://github.com/user-attachments/assets/77e22072-090c-439d-a62f-cbc8a4752ff6)
+
 
 
 ### Links
